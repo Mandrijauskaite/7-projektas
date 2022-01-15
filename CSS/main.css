@@ -12,22 +12,39 @@ body {
 }
 
 .container {
-display: inline-block;
-width: 800px;
-margin-top: 100px;
-margin-left: calc(50%-400px);
+    display: inline-block;
+    width: 800px;
+    margin-top: 100px;
+    margin-left: calc(50%-400px);
 }
 
 .container > .left-column {
-width: 40px;
-padding: 40px;
-float: left;
-background-color: #33b5db;
+    width: 40px;
+    padding: 40px;
+    float: left;
+    background-color: #33b5db;
 }
 
 .container > .right-column {
-width: 60px;
-padding: 60px;
-float: left;
-background-color: #fff;
+    width: 60px;
+    padding: 60px;
+    float: left;
+    background-color: #0054ac;
+    background-image: url(../img/hill.jpg);
+    color: #fff;
+}
+
+.main-title {
+    font-weight: normal;
+}
+
+.botom-links {
+    color: #fff8;
+}
+
+.botom-links > .link {
+    color: #fff8;
+}
+.botom-links > .link:hover {
+    color: #fff8;
 }
